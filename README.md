@@ -9,3 +9,11 @@ print(output.name)
 print(output.gender)
 print(output.height)
 }
+func eat() -> String {
+  return "eat"
+}
+func talk() -> String {
+  return "talk"
+func walk() -> String {
+  return "walk"
+}
