@@ -1,8 +1,8 @@
 import Cocoa
  class Person {
- var name: String = "雷金洲"
- var gender: String = "男"
- var height: Int = 169
+ let name: String = "雷金洲"
+ let gender: String = "男"
+ let height: Int = 169
 }
 let output = Person() {
 print(output.name)
