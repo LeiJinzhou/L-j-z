@@ -4,11 +4,10 @@ import Cocoa
  let gender: String = "男"
  let height: Int = 169
 }
-let output = Person() {
+let output = Person() 
 print(output.name)
 print(output.gender)
 print(output.height)
-}
 func eat() -> String {
   return "eat"
 }
@@ -17,3 +16,6 @@ func talk() -> String {
 func walk() -> String {
   return "walk"
 }
+print("one of my abilities is",eat())
+print("one of my abilities is",talk())
+print("one of my abilities is",walk())
